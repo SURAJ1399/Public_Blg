@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommentActivity">
+
+    <RelativeLayout
+        android:layout_width="418dp"
+        android:layout_height="760dp"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="-29dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="225dp"
+            android:layout_height="67dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="142dp"
+            android:text="Comments:-"
+            android:textSize="34dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="96dp" />
+
+        <include
+            layout="@layout/toolbar3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="27dp" />
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="413dp"
+            android:layout_height="18dp"
+            android:indeterminate="true"
+            android:visibility="invisible"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="56dp" />
+
+        <Button
+            android:id="@+id/commentsendbtn"
+            android:layout_width="65dp"
+            android:layout_height="68dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="54dp"
+            android:layout_marginRight="54dp"
+            android:layout_marginBottom="192dp"
+            android:background="@drawable/ic_send_black_24dp"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="334dp" />
+
+        <EditText
+            android:id="@+id/commenttext"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="132dp"
+            android:layout_marginRight="132dp"
+            android:layout_marginBottom="196dp"
+            android:hint="Comment..."
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/commentlist"
+            android:layout_width="392dp"
+            android:layout_height="278dp"
+
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

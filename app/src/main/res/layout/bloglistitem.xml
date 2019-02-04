@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="431dp"
+        android:layout_height="433dp"
+
+        app:cardBackgroundColor="#EEEEF1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="34dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="711dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="412dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="326dp"
+                android:text="------------------------------------------------------------------------------------------------" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="412dp"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="414dp"
+                android:text="------------------------------------------------------------------------------------------------"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/xyz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/bloglikescount"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-5dp"
+                android:layout_marginEnd="64dp"
+                android:layout_marginRight="64dp"
+                android:text="Comments"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/blogimageview"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="81dp"
+                app:srcCompat="@drawable/load"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/bloglikescount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="101dp"
+                android:layout_marginLeft="101dp"
+                android:layout_marginBottom="323dp"
+                android:text="0 Likes"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="83dp"
+                tools:layout_editor_absoluteY="438dp" />
+
+            <ImageView
+                android:id="@+id/bloglike"
+                android:layout_width="72dp"
+                android:layout_height="55dp"
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="31dp"
+                android:layout_marginLeft="31dp"
+                android:layout_marginBottom="308dp"
+                app:srcCompat="@drawable/ic_favorite_black_24dp"
+                tools:ignore="VectorDrawableCompat"
+                tools:layout_editor_absoluteY="420dp" />
+
+            <Button
+                android:id="@+id/commentpagebtn"
+                android:layout_width="49dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/bloglikescount"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-16dp"
+                android:layout_marginEnd="131dp"
+                android:layout_marginRight="131dp"
+                android:background="@drawable/ic_mode_comment_black_24dp"
+                tools:layout_editor_absoluteX="264dp"
+                tools:layout_editor_absoluteY="385dp" />
+
+            <TextView
+                android:id="@+id/blogdesc"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="38dp"
+                android:layout_marginRight="38dp"
+                android:layout_marginBottom="374dp"
+                android:text="ljsfld dfndkfndk dkfndkf dknfkdf dfndkf dkfndk kdnfkdfk dmnfkdf kmdnf,df jmnbkd"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                tools:ignore="HardcodedText,MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="397dp" />
+
+            <TextView
+                android:id="@+id/blogdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="41dp"
+                android:text="Blogpostdate"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="104dp"
+                tools:layout_editor_absoluteY="46dp" />
+
+            <TextView
+                android:id="@+id/blogusername"
+                android:layout_width="121dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="211dp"
+                android:layout_marginRight="211dp"
+                android:text="Username"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.375"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/bloguserimage"
+                android:layout_width="80dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/profile"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

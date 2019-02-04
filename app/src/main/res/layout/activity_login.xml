@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#0265DF">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="338dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="86dp"
+        android:text="Group   Blog"
+        android:textColor="#FAF4F4"
+        android:textSize="56dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="211dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="65dp"
+        android:text="Welcome To"
+        android:textColor="#ffffff"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/login_email"
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="212dp"
+        android:ems="10"
+        android:hint="EMAIl ID..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/login_pass"
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="286dp"
+        android:ems="10"
+        android:hint="PASSWORD..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="314dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="151dp"
+        android:background="#f00"
+        android:text="Login to Account "
+        android:textColor="#ffff"
+        android:textSize="21dp" />
+
+    <ProgressBar
+        android:id="@+id/login_progerss"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:indeterminate="true"
+        android:indeterminateTint="#F00" />
+
+    <Button
+        android:id="@+id/login_reg_btn"
+        android:layout_width="324dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginBottom="13dp"
+        android:background="#fff"
+        android:text="Need a new  Account"
+        android:textColor="#F00"
+        android:textSize="18dp" />
+</RelativeLayout>
+
+
